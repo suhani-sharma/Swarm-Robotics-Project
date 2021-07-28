@@ -64,8 +64,8 @@ function setup() {
     x = int(random(2, 5));
     y = int(random(2, 5));
     Obs[i] = [];
-    Obs[i][0] = int(random(0, canvas_size - 60));
-    Obs[i][1] = int(random(0, canvas_size - 60));
+    Obs[i][0] = int(random(30, canvas_size - 60));
+    Obs[i][1] = int(random(30, canvas_size - 60));
     pot[int(Obs[i][0] / width)][int(Obs[i][1] / width)] = 10000;
     fill(0, 0, 0);
     //random size of obstacle
